@@ -9,11 +9,11 @@ const passport = require('passport');
  * http://tools.ietf.org/html/rfc6750#section-2.1
  *
  * Example would be using the endpoint of
- * https://localhost:3000/api/userinfo
+ * https://localhost:3001/api/userinfo
  *
  * With a GET using an Authorization Bearer token similar to
  * GET /api/userinfo
- * Host: https://localhost:3000
+ * Host: https://localhost:3001
  * Authorization: Bearer someAccessTokenHere
  * @param {Object} req The request
  * @param {Object} res The response

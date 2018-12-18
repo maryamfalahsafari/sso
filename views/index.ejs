@@ -155,8 +155,8 @@
   the grant type.
   <a id="implicit" href="">
             <pre>
-  <span class="hostname">https://localhost:3000/</span>/dialog/authorize?
-  redirect_uri=<span class="hostname">https://localhost:3000</span>&
+  <span class="hostname">https://localhost:3001/</span>/dialog/authorize?
+  redirect_uri=<span class="hostname">https://localhost:3001</span>&
   response_type=token&
   client_id=abc123
             </pre>
@@ -172,7 +172,7 @@
     browser's debug tools, and click the Submit Post button below to begin the grant type.
                 <pre>
   POST oauth/token HTTP/1.1
-  Host: <span class="hostname">https://localhost:3000</span>
+  Host: <span class="hostname">https://localhost:3001</span>
   Content-Type: application/x-www-form-urlencoded
   Authorization: Basic YWJjMTIzOnNzaC1zZWNyZXQ=
 
@@ -200,7 +200,7 @@
     the Submit Post button below to begin the grant type.
             <pre>
   POST oauth/token HTTP/1.1
-  Host: <span class="hostname">https://localhost:3000</span>
+  Host: <span class="hostname">https://localhost:3001</span>
   Content-Type: application/x-www-form-urlencoded
   Authorization: Basic YWJjMTIzOnNzaC1zZWNyZXQ=
 
@@ -233,7 +233,7 @@
     press the Call API EndPoint button and look at your network tab.
   </p>
         <pre>GET /api/userinfo HTTP/1.1
-Host: <span class="hostname">https://localhost:3000</span>
+Host: <span class="hostname">https://localhost:3001</span>
 Authorization: Bearer <span class="access_token"></span>
         </pre>
         <!--ToDo:Maryam,apiEndPointButton-->
@@ -269,7 +269,7 @@ Authorization: Bearer <span class="access_token"></span>
     Call API EndPoint button and look at your network tab.
   </p>
         <pre>GET /api/userinfo HTTP/1.1
-Host: <span class="hostname">https://localhost:3000</span>
+Host: <span class="hostname">https://localhost:3001</span>
 Authorization: Bearer <span class="access_token"></span>
         </pre>
   <button id="accessTokenCallApiButton" class="pure-button pure-button-primary" type="button">Call API EndPoint</button>

@@ -86,5 +86,5 @@ const options = {
   cert : fs.readFileSync(path.join(__dirname, 'certs/certificate.pem')),
 };
 
-https.createServer(options, app).listen(3000);
-console.log('OAuth 2.0 Authorization Server started on port 3000');
+https.createServer(options, app).listen(3001);
+console.log('OAuth 2.0 Authorization Server started on port 3001');

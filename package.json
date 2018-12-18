@@ -27,11 +27,8 @@
     "uuid": "^3.0.1"
   },
   "scripts": {
-    "lint": "eslint *.js config db test",
-    "start": "node app.js",
-    "test": "mocha test test/db test/config",
-    "test:watch": "npm run test -- --watch",
-    "test:integration": "mocha test/integration"
+   
+    "start": "node app.js"
   },
   "engines": {
     "node": ">=6.7.0",
